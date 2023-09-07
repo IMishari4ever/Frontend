@@ -1,0 +1,213 @@
+.logoHere {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  background: linear-gradient(88.16deg, #bf43d3, #7000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navbarChild,
+.navbarItem {
+  position: absolute;
+  margin: 0 !important;
+  top: 113.69px;
+  left: -11px;
+  width: 328.13px;
+  height: 362.98px;
+  z-index: 0;
+}
+.navbarItem {
+  top: 513.69px;
+  left: 14.04px;
+  width: 181.41px;
+  height: 350.98px;
+  z-index: 1;
+}
+.instanceParent,
+.navbarInner {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.instanceParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.navbarInner {
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(162, 39, 205, 0.3),
+    rgba(17, 13, 24, 0.3)
+  );
+  width: 54px;
+  height: 54px;
+}
+.frameDiv {
+  margin: 0 !important;
+  position: absolute;
+  top: 394px;
+  left: 283px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.activePeople {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.activePeopleWrapper {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(87.85deg, #7c1a8c, #491190);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-7xl);
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.nadiaAlie09 {
+  flex: 1;
+  position: relative;
+  font-size: var(--p3-m-16-size);
+  line-height: 159.69%;
+  font-family: var(--p3-m-16);
+  color: var(--white);
+  text-align: right;
+}
+.maskGroupIcon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  z-index: 0;
+}
+.frameItem {
+  position: absolute;
+  margin: 0 !important;
+  top: 22px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-springgreen);
+  width: 8px;
+  height: 8px;
+  z-index: 1;
+}
+.maskGroupParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameButton,
+.nadiaAlie09Container,
+.nadiaAlie09Group,
+.nadiaAlie09Parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-7xl);
+  background-color: var(--jasim);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(99.94deg, #242427, rgba(50, 45, 60, 0.16));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-base);
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+.frameButton:hover,
+.nadiaAlie09Container:hover,
+.nadiaAlie09Group:hover,
+.nadiaAlie09Parent:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 63, 218, 0.36) 0,
+    rgba(205, 20, 235, 0.36) 100%
+  );
+}
+.frameButton,
+.nadiaAlie09Container,
+.nadiaAlie09Group {
+  z-index: 2;
+}
+.frameButton,
+.nadiaAlie09Container {
+  z-index: 3;
+}
+.frameButton {
+  z-index: 4;
+}
+.frameChild2 {
+  position: absolute;
+  margin: 0 !important;
+  top: 119px;
+  left: -56px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(162, 39, 205, 0.3),
+    rgba(17, 13, 24, 0.3)
+  );
+  width: 96px;
+  height: 96px;
+  z-index: 5;
+}
+.frameParent,
+.logoParent,
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-5xs);
+  z-index: 4;
+}
+.logoParent,
+.navbar {
+  justify-content: flex-start;
+}
+.navbar {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  padding: var(--padding-21xl);
+  align-items: flex-start;
+  position: relative;
+  gap: var(--gap-5xs);
+  font-size: var(--p1-m-20-size);
+}
+.logoParent {
+  width: 352px;
+  align-items: center;
+  text-align: center;
+  font-size: var(--h3-m-40-size);
+  color: var(--white);
+  font-family: var(--p3-m-16);
+}

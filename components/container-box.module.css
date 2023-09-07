@@ -1,0 +1,45 @@
+.caretleftIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.caretleftWrapper {
+  background-color: var(--update-sub-bg);
+  border: 1px solid var(--update-gray);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-mid) var(--padding-mini);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  position: relative;
+  font-weight: 500;
+}
+.caretrightWrapper,
+.wrapper {
+  background-color: var(--update-sub-bg);
+  border: 1px solid var(--update-gray);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: -1px;
+}
+.caretrightWrapper {
+  padding: var(--padding-mid) var(--padding-mini);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--p1-m-20-size);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

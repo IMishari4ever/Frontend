@@ -1,0 +1,174 @@
+.animatedBottleHoldingToolSIcon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 234px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div,
+.icon {
+  position: relative;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  line-height: 30px;
+  font-weight: 500;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.div1 {
+  position: relative;
+  font-size: var(--p3-m-16-size);
+  line-height: 24px;
+  color: var(--color-darkgray);
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.rahimAlie {
+  position: relative;
+  line-height: 159.69%;
+}
+.topRatedSeller {
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-silver-200);
+}
+.rahimAlieParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.maskGroupIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.frameDiv,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.frameDiv {
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: right;
+  font-size: var(--p3-m-16-size);
+  color: var(--color-lightslategray-100);
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: space-between;
+  color: var(--star);
+}
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--color-midnightblue-400);
+  box-sizing: border-box;
+  height: 1px;
+}
+.frameItem {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-midnightblue-200);
+  width: 30px;
+  height: 30px;
+  z-index: 0;
+}
+.icon1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 9px;
+  left: 7px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.div2 {
+  position: relative;
+  font-weight: 500;
+}
+.startingPrice {
+  position: relative;
+  font-size: var(--caption-r-14-size);
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.iWillConvert {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--p3-m-16-size);
+  line-height: 152%;
+  font-weight: 500;
+  text-align: right;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.animatedBottleHoldingToolSParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-xs);
+}
+.animatedBottleHoldingToolSParent {
+  border-radius: var(--br-3xs);
+  background-color: var(--update-sub-bg);
+  width: 300px;
+  padding: 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 300px;
+  max-width: 380px;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--p1-m-20-size);
+  color: var(--white);
+  font-family: var(--p3-m-16);
+}

@@ -1,0 +1,167 @@
+.clientsReviewsAbout {
+  align-self: stretch;
+}
+.clientsReviewsAbout,
+.williumWatson {
+  position: relative;
+  font-weight: 500;
+}
+.unitedKingdom {
+  position: relative;
+  font-size: var(--p3-m-16-size);
+  line-height: 159.69%;
+  color: var(--update-paragraph);
+}
+.williumWatsonParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.maskGroupIcon {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-base);
+}
+.daysAgo,
+.icon {
+  position: relative;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.daysAgoParent,
+.icons,
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+.icons {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.daysAgoParent,
+.stars {
+  align-items: center;
+}
+.stars {
+  height: 30px;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--t2-m-24-size);
+  color: var(--star);
+}
+.daysAgoParent {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.certainlyGunsN {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--p3-m-16-size);
+  line-height: 24px;
+  text-align: right;
+}
+.frameDiv,
+.frameGroup,
+.frameParent3,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.frameDiv {
+  border-radius: var(--br-3xs);
+  background-color: var(--update-gray);
+  padding: var(--padding-11xl) var(--padding-39xl) var(--padding-11xl)
+    var(--padding-11xl);
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--caption-r-14-size);
+  color: var(--update-paragraph);
+}
+.frameGroup,
+.frameParent3,
+.frameWrapper {
+  align-items: flex-end;
+}
+.frameGroup {
+  gap: var(--gap-base);
+}
+.frameParent3,
+.frameWrapper {
+  text-align: left;
+}
+.frameParent3 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  padding: var(--padding-11xl) var(--padding-39xl) var(--padding-11xl)
+    var(--padding-11xl);
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--caption-r-14-size);
+  color: var(--update-paragraph);
+}
+.frameParent1 {
+  gap: var(--gap-base);
+}
+.frameParent1,
+.frameWrapper1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.canada1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--p3-m-16-size);
+  line-height: 159.69%;
+  color: var(--update-paragraph);
+}
+.emaWatsonGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.clientsReviewsAboutTheSelParent,
+.frameParent,
+.frameWrapper2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.clientsReviewsAboutTheSelParent,
+.frameParent {
+  gap: var(--gap-41xl);
+  font-size: var(--p1-m-20-size);
+}
+.clientsReviewsAboutTheSelParent {
+  gap: var(--gap-21xl);
+  text-align: right;
+  font-size: var(--t1-m-32-size);
+  color: var(--white);
+  font-family: var(--p3-m-16);
+}

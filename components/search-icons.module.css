@@ -1,0 +1,80 @@
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.ellipseWrapper,
+.searchIconsInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchIconsInner {
+  align-items: center;
+}
+.outlineNotificationsBell {
+  position: relative;
+  border-radius: var(--br-8xs);
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.frameItem {
+  position: absolute;
+  margin: 0 !important;
+  top: -1.5px;
+  left: 14.5px;
+  border-radius: 50%;
+  background-color: var(--warn);
+  border: 1.5px solid var(--white);
+  box-sizing: border-box;
+  width: 11px;
+  height: 11px;
+  z-index: 1;
+}
+.outlineNotificationsBellParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+}
+.iconChild {
+  position: relative;
+  width: 1.5px;
+  height: 21.5px;
+}
+.outlineLikeHeart,
+.outlineMessagesConversati {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.outlineLikeHeart {
+  border-radius: var(--br-8xs);
+}
+.icon,
+.searchIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon {
+  flex: 1;
+  gap: var(--gap-base);
+  min-width: 160px;
+}
+.searchIcons {
+  align-self: stretch;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-7xs) 0 0;
+  gap: var(--gap-21xl);
+}

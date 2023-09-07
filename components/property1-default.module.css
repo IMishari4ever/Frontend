@@ -1,0 +1,57 @@
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(
+    129.33deg,
+    rgba(46, 63, 218, 0.3),
+    rgba(110, 24, 124, 0.3)
+  );
+  width: 80px;
+  height: 80px;
+  z-index: 0;
+}
+.boldSettingsFineTuning {
+  position: absolute;
+  margin: 0 !important;
+  top: 15px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.category {
+  position: relative;
+  line-height: 15px;
+}
+.property1default {
+  text-decoration: none;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-500);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-7xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  min-width: 100px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--white);
+  font-family: var(--font-inter);
+  flex: 1;
+}
+.property1default:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 63, 218, 0.36) 0,
+    rgba(205, 20, 235, 0.36) 100%
+  );
+}

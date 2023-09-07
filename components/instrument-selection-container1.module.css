@@ -1,0 +1,49 @@
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--update-sub-bg);
+  width: 30px;
+  height: 30px;
+  z-index: 0;
+}
+.caretdownIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 7px;
+  left: 7px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.whatKindOf {
+  margin: 0;
+  padding-left: var(--padding-8xl);
+}
+.whatKindOfContainer {
+  flex: 1;
+  position: relative;
+  line-height: 152%;
+}
+.frameParent {
+  align-self: stretch;
+  background-color: var(--update-gray);
+  border-bottom: 1px solid var(--update-placeholder);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xl);
+  align-items: center;
+  justify-content: space-between;
+  text-align: right;
+  font-size: var(--font-inherit);
+  color: var(--white);
+  font-family: var(--font-inherit);
+}

@@ -1,0 +1,25 @@
+.outlineSearchMagnifer {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.technologyCoding {
+  position: relative;
+  line-height: 150.19%;
+}
+.list {
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--gray);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-smi) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--t3-r-22-size);
+  color: var(--gray);
+  font-family: var(--p3-m-16);
+}

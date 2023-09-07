@@ -1,0 +1,42 @@
+.div,
+.enterAmount {
+  position: relative;
+  line-height: 152%;
+}
+.enterAmount {
+  align-self: stretch;
+}
+.div {
+  flex: 1;
+}
+.enterAmountParent,
+.frameWrapper,
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.enterAmountParent,
+.frameWrapper {
+  flex-direction: column;
+}
+.frameWrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--update-black);
+  border: 1px solid var(--update-placeholder);
+  overflow: hidden;
+  padding: var(--padding-mini);
+  align-items: flex-start;
+}
+.enterAmountParent {
+  align-items: flex-end;
+  gap: var(--gap-base);
+  text-align: right;
+  font-size: var(--p1-m-20-size);
+  color: var(--white);
+  font-family: var(--p3-m-16);
+}

@@ -1,0 +1,85 @@
+.sellerPreviousWorks {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.sellerPreviousWorksWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.midiKeyboardHeadphonesLaptoIcon {
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 408px;
+  height: 264px;
+  object-fit: cover;
+}
+.expertInData {
+  position: relative;
+  line-height: 163.19%;
+  font-weight: 500;
+  display: inline-block;
+  width: 396px;
+}
+.midiKeyboardHeadphonesLaptoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.manWearingStripedShirtUsesIcon {
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 408px;
+  height: 272px;
+  object-fit: cover;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  font-size: var(--t3-r-22-size);
+}
+.viewAllWorks {
+  position: relative;
+  font-size: var(--p3-m-16-size);
+  font-weight: 500;
+  font-family: var(--p3-m-16);
+  color: var(--white);
+  text-align: left;
+}
+.viewAllWorksWrapper {
+  cursor: pointer;
+  border: 1px solid var(--white);
+  padding: var(--padding-smi) var(--padding-7xl);
+  background-color: var(--jasim);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.viewAllWorksWrapper:hover {
+  background-color: var(--color-gray-100);
+  cursor: pointer;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  text-align: right;
+  font-size: var(--t1-m-32-size);
+  color: var(--white);
+  font-family: var(--p3-m-16);
+}

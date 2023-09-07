@@ -1,0 +1,62 @@
+.componentChild {
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
+}
+.componentChild,
+.m,
+.moulud1997 {
+  position: relative;
+}
+.moulud1997 {
+  font-weight: 500;
+}
+.m {
+  font-size: var(--p3-m-16-size);
+  line-height: 159.69%;
+  color: var(--update-paragraph);
+}
+.iWillCreate,
+.moulud1997Parent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.moulud1997Parent {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.iWillCreate {
+  position: relative;
+  line-height: 169.69%;
+  color: var(--update-paragraph);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 26px;
+  flex-shrink: 0;
+}
+.ellipseParent,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.ellipseParent {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--update-black);
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-11xl);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--p2-r-18-size);
+  color: var(--white);
+  font-family: var(--p3-m-16);
+}

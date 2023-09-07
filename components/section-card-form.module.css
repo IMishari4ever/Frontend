@@ -1,0 +1,48 @@
+.div {
+  position: relative;
+  line-height: 163.19%;
+  font-weight: 500;
+}
+.frameChild {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+.complete {
+  position: relative;
+  line-height: 150.19%;
+}
+.groupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameItem {
+  position: relative;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.frameWrapper,
+.parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-111xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-xl);
+  align-items: flex-start;
+  text-align: right;
+  font-size: var(--t3-r-22-size);
+  color: var(--white);
+  font-family: var(--p3-m-16);
+}

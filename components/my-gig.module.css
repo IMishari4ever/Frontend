@@ -1,0 +1,31 @@
+.podcast1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  width: 390px;
+  height: 294.81px;
+  object-fit: cover;
+}
+.podcast1Wrapper {
+  align-self: stretch;
+  position: relative;
+  height: 294.81px;
+}
+.webDesignlandingPage {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 390px;
+}
+.groupParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  text-align: right;
+  font-size: var(--p2-r-18-size);
+  color: var(--white);
+  font-family: var(--p3-m-16);
+}

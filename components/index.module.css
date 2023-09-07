@@ -1,0 +1,31 @@
+.outlineMessagesConversati {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.createAGig {
+  position: relative;
+  font-weight: 500;
+}
+.cta,
+.outlineMessagesConversatiParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.outlineMessagesConversatiParent {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.cta {
+  border-radius: var(--br-3xs);
+  background: linear-gradient(90deg, #5f27cd, #864bfa);
+  padding: var(--padding-base);
+  justify-content: center;
+  text-align: center;
+  font-size: var(--p3-m-16-size);
+  color: var(--white);
+  font-family: var(--p3-m-16);
+}

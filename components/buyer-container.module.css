@@ -1,0 +1,29 @@
+.buyer {
+  position: relative;
+  line-height: 169.69%;
+}
+.vectorStrokeIcon {
+  position: relative;
+  width: 12.92px;
+  height: 6.25px;
+}
+.buyerParent,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.buyerParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-sm);
+}
+.frameWrapper {
+  border-radius: var(--br-3xs);
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-10xl);
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--p2-r-18-size);
+  color: var(--white);
+  font-family: var(--p3-m-16);
+}

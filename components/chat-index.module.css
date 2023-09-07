@@ -1,0 +1,57 @@
+.nadiaAlie09 {
+  flex: 1;
+  position: relative;
+  font-size: var(--p3-m-16-size);
+  line-height: 159.69%;
+  font-family: var(--p3-m-16);
+  color: var(--white);
+  text-align: right;
+}
+.maskGroupIcon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  z-index: 0;
+}
+.frameChild {
+  position: absolute;
+  margin: 0 !important;
+  top: 22px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-springgreen);
+  width: 8px;
+  height: 8px;
+  z-index: 1;
+}
+.maskGroupParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.nadiaAlie09Parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-7xl);
+  background-color: var(--jasim);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(99.94deg, #242427, rgba(50, 45, 60, 0.16));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-base);
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+.nadiaAlie09Parent:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 63, 218, 0.36) 0,
+    rgba(205, 20, 235, 0.36) 100%
+  );
+}

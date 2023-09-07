@@ -1,0 +1,152 @@
+.webDesign {
+  align-self: stretch;
+  line-height: 131.69%;
+  font-weight: 500;
+  text-align: right;
+}
+.hour,
+.icon,
+.webDesign {
+  position: relative;
+}
+.hour {
+  flex: 1;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 85px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.div {
+  position: relative;
+  line-height: 37px;
+  font-weight: 500;
+  display: inline-block;
+  width: 34px;
+  height: 33px;
+  flex-shrink: 0;
+}
+.frameContainer,
+.frameWrapper {
+  display: flex;
+  justify-content: center;
+}
+.frameContainer {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-6xs);
+}
+.frameWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.maskGroupIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.fromUnitedState,
+.maskGroupIcon {
+  position: relative;
+}
+.frameGroup,
+.maskGroupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--p3-m-16-size);
+  color: var(--white);
+}
+.frameGroup {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--t2-m-24-size);
+  color: var(--star);
+}
+.hourParent {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-3xs);
+  min-width: 207px;
+  font-size: var(--t1-m-32-size);
+  color: var(--color-mediumspringgreen);
+}
+.frameDiv,
+.hourParent,
+.uiUxDesignWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.uiUxDesignWrapper {
+  border-radius: var(--br-xl);
+  background-color: var(--color-midnightblue-300);
+  border: 1px solid var(--color-midnightblue-100);
+  padding: var(--padding-3xs) var(--padding-xl);
+  align-items: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-5xs);
+  font-size: var(--p3-m-16-size);
+}
+.webDesignDevelopmentExperParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 207px;
+}
+.maskGroupIcon1 {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+.rahimAlie {
+  position: relative;
+  font-weight: 500;
+}
+.frameParent,
+.maskGroupGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--p1-m-20-size);
+}
+.frameParent {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--update-sub-bg);
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-31xl) var(--padding-28xl) var(--padding-31xl)
+    var(--padding-27xl);
+  justify-content: center;
+  gap: var(--gap-10xl);
+  text-align: left;
+  font-size: var(--t2-m-24-size);
+  color: var(--white);
+  font-family: var(--p3-m-16);
+}

@@ -1,0 +1,95 @@
+.arrowcirclerightIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.viewAll {
+  position: relative;
+  font-weight: 500;
+}
+.arrowcirclerightParent {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  cursor: pointer;
+  color: inherit;
+}
+.hireTopRated {
+  position: relative;
+  font-weight: 500;
+  color: var(--white);
+}
+.frameGroup,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameGroup {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  font-size: var(--t2-m-24-size);
+  color: var(--white);
+}
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--update-gray);
+  width: 50px;
+  height: 50px;
+  z-index: 0;
+}
+.caretleftIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameItem {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--update-sub-bg);
+  width: 50px;
+  height: 50px;
+  z-index: 0;
+}
+.frameContainer {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.freelancers {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--t1-m-32-size);
+  color: var(--update-brand);
+  font-family: var(--p3-m-16);
+}
