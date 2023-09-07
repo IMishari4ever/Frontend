@@ -1,6 +1,6 @@
 import { useMemo, useCallback } from "react";
 import { useRouter } from "next/router";
-import FrameComponent from "./frame-component";
+import FrameComponent from "./frame-component1";
 import styles from "./right-header.module.css";
 const RightHeader = ({
   group46,

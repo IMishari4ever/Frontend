@@ -2,10 +2,11 @@ import { useCallback } from "react";
 import { useRouter } from "next/router";
 import SearchIcons from "../components/search-icons";
 import FreelancersCard1 from "../components/freelancers-card1";
-import GigIndex from "../components/gig-index";
 import ContainerFooter from "../components/container-footer";
 import RightHeader from "../components/right-header";
 import styles from "./index1.module.css";
+import ContainerCard from "../components/container-card";
+
 const Index1 = () => {
   const router = useRouter();
 
