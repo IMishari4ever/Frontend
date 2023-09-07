@@ -22,7 +22,7 @@
 .hireTopRated {
   position: relative;
   font-weight: 500;
-  color: var(--white);
+  color: var(--update-white);
 }
 .frameGroup,
 .frameParent {
@@ -38,7 +38,7 @@
   justify-content: flex-start;
   gap: var(--gap-8xl);
   font-size: var(--t2-m-24-size);
-  color: var(--white);
+  color: var(--update-white);
 }
 .frameChild {
   position: relative;
@@ -91,5 +91,5 @@
   text-align: left;
   font-size: var(--t1-m-32-size);
   color: var(--update-brand);
-  font-family: var(--p3-m-16);
+  font-family: var(--h3-semi-40);
 }

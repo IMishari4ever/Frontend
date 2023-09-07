@@ -40,6 +40,6 @@
   justify-content: center;
   text-align: left;
   font-size: var(--p1-m-20-size);
-  color: var(--white);
+  color: var(--update-white);
   font-family: var(--font-inter);
 }

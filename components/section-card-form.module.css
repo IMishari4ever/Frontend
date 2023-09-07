@@ -43,6 +43,6 @@
   align-items: flex-start;
   text-align: right;
   font-size: var(--t3-r-22-size);
-  color: var(--white);
-  font-family: var(--p3-m-16);
+  color: var(--update-white);
+  font-family: var(--h3-semi-40);
 }

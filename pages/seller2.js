@@ -4,7 +4,7 @@ import SearchIcons from "../components/search-icons";
 import MyGig from "../components/my-gig";
 import ContainerBox from "../components/container-box";
 import ReviewCard from "../components/review-card";
-import CTA from "/";
+import CTA from "../components/c-t-a";
 import ContainerFooter from "../components/container-footer";
 import RightHeader from "../components/right-header";
 import styles from "./seller2.module.css";
@@ -15,11 +15,7 @@ const Seller2 = () => {
     router.push("/gigboost");
   }, [router]);
 
-  const onFrameButton8Click = useCallback(() => {
-    router.push("/chat");
-  }, [router]);
-
-  const onFrameButton9Click = useCallback(() => {
+  const onFrameButtonClick = useCallback(() => {
     router.push("/chat");
   }, [router]);
 
@@ -341,10 +337,10 @@ const Seller2 = () => {
         group46="/group-46.svg"
         vector10="/vector-10.svg"
         frameACursor="unset"
-        boldEssentionalUIHome2="/bold--essentional-ui--home-24.svg"
-        boldSettingsFineTuningWid="/bold--settings-fine-tuning--widget-25.svg"
+        boldEssentionalUIHome2="/bold--essentional-ui--home-241.svg"
+        boldSettingsFineTuningWid="/bold--settings-fine-tuning--widget-251.svg"
         boldUsersUserRounded="/bold--users--user-rounded4.svg"
-        boldDuotoneMoneyWallet="/bold-duotone--money--wallet4.svg"
+        boldDuotoneMoneyWallet="/bold-duotone--money--wallet41.svg"
         onFrameLink5Click={onFrameLink4Click}
         boldSettingsFineTuningSet="/bold--settings-fine-tuning--settings2.svg"
         vector="/vector.svg"

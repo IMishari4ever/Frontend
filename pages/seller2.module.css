@@ -17,7 +17,7 @@
 .technologyGaming {
   position: relative;
   font-size: 15.96px;
-  font-family: var(--p3-m-16);
+  font-family: var(--h3-semi-40);
   color: var(--stock);
   text-align: left;
 }
@@ -119,7 +119,7 @@
   justify-content: flex-end;
   gap: var(--gap-5xs);
   text-align: left;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   color: var(--update-paragraph);
 }
 .rahimAlieParent {
@@ -156,7 +156,7 @@
   flex-direction: row;
   align-items: flex-start;
   text-align: center;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   color: var(--background);
 }
 .frameDiv {
@@ -167,7 +167,7 @@
 }
 .contactWrapper {
   border-radius: var(--br-3xs);
-  border: 1px solid var(--white);
+  border: 1px solid var(--update-white);
   padding: var(--padding-3xs) var(--padding-xl);
   justify-content: flex-start;
 }
@@ -189,7 +189,7 @@
   justify-content: flex-end;
   gap: var(--gap-base);
   text-align: left;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
 }
 .frameContainer {
   flex: 1;
@@ -467,7 +467,7 @@
   justify-content: flex-end;
   gap: var(--gap-5xs);
   text-align: left;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
 }
 .ratingParent {
   flex-direction: column;
@@ -564,7 +564,7 @@
 .frameInner {
   border: 1px solid var(--color-silver-100);
   background-color: var(--jasim);
-  font-family: var(--p3-m-16);
+  font-family: var(--h3-semi-40);
   font-size: var(--p1-m-20-size);
   border-radius: var(--br-3xs);
   padding: var(--padding-xl);
@@ -617,8 +617,8 @@
   gap: var(--gap-11xl);
   text-align: right;
   font-size: var(--t1-m-32-size);
-  color: var(--white);
-  font-family: var(--p3-m-16);
+  color: var(--update-white);
+  font-family: var(--h3-semi-40);
 }
 @media screen and (max-width: 1200px) {
   .frameInner {

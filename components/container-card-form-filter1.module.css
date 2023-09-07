@@ -67,8 +67,8 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-5xs);
-  font-size: var(--p3-m-16-size);
-  color: var(--white);
+  font-size: var(--p3-r-16-size);
+  color: var(--update-white);
 }
 .frameGroup {
   flex-direction: column;
@@ -105,7 +105,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: var(--gap-5xs);
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
 }
 .webDesignDevelopmentExperParent {
   flex: 1;
@@ -147,6 +147,6 @@
   gap: var(--gap-10xl);
   text-align: left;
   font-size: var(--t2-m-24-size);
-  color: var(--white);
-  font-family: var(--p3-m-16);
+  color: var(--update-white);
+  font-family: var(--h3-semi-40);
 }

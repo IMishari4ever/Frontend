@@ -8,18 +8,14 @@ const Chat = () => {
   const router = useRouter();
 
   const onFrameLinkClick = useCallback(() => {
-    router.push("/index1");
+    router.push("/");
   }, [router]);
 
   const onFrameLink4Click = useCallback(() => {
     router.push("/gigboost");
   }, [router]);
 
-  const onFrameButton8Click = useCallback(() => {
-    router.push("/chat");
-  }, [router]);
-
-  const onFrameButton9Click = useCallback(() => {
+  const onFrameButtonClick = useCallback(() => {
     router.push("/chat");
   }, [router]);
 
@@ -156,7 +152,7 @@ const Chat = () => {
         onFrameLinkClick={onFrameLinkClick}
         frameACursor="pointer"
         boldEssentionalUIHome2="/bold--essentional-ui--home-23.svg"
-        boldSettingsFineTuningWid="/bold--settings-fine-tuning--widget-24.svg"
+        boldSettingsFineTuningWid="/bold--settings-fine-tuning--widget-241.svg"
         boldUsersUserRounded="/bold--users--user-rounded3.svg"
         boldDuotoneMoneyWallet="/bold-duotone--money--wallet3.svg"
         onFrameLink5Click={onFrameLink4Click}

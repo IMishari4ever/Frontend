@@ -12,11 +12,7 @@ const GigPostPage = () => {
     router.push("/gigboost");
   }, [router]);
 
-  const onFrameButton8Click = useCallback(() => {
-    router.push("/chat");
-  }, [router]);
-
-  const onFrameButton9Click = useCallback(() => {
+  const onFrameButtonClick = useCallback(() => {
     router.push("/chat");
   }, [router]);
 
@@ -506,7 +502,7 @@ const GigPostPage = () => {
                     <img
                       className={styles.vectorIcon}
                       alt=""
-                      src="/vector1.svg"
+                      src="/vector15.svg"
                     />
                   </div>
                 </div>

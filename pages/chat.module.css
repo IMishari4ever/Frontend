@@ -18,7 +18,7 @@
 .technologyGaming {
   position: relative;
   font-size: 15.96px;
-  font-family: var(--p3-m-16);
+  font-family: var(--h3-semi-40);
   color: var(--stock);
   text-align: left;
 }
@@ -150,7 +150,7 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: var(--gap-base);
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   color: var(--update-paragraph);
 }
 .muhammadJabedParent {
@@ -268,6 +268,6 @@
   gap: var(--gap-11xl);
   text-align: left;
   font-size: var(--t2-m-24-size);
-  color: var(--white);
-  font-family: var(--p3-m-16);
+  color: var(--update-white);
+  font-family: var(--h3-semi-40);
 }

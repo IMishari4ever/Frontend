@@ -31,7 +31,7 @@
 }
 .outlineSearchMagniferParent {
   border-radius: var(--br-3xs);
-  background-color: var(--color-gray-700);
+  background-color: var(--color-gray-600);
   width: 695px;
   display: none;
   flex-direction: row;
@@ -64,9 +64,9 @@
 }
 .createAGig1 {
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   font-weight: 500;
-  font-family: var(--p3-m-16);
+  font-family: var(--h3-semi-40);
   background: linear-gradient(88.16deg, #bf43d3, #7000ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -100,7 +100,7 @@
 .frameWrapper {
   justify-content: flex-start;
   text-align: center;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
 }
 .frameParent,
 .instanceParent {
@@ -115,6 +115,6 @@
   gap: var(--gap-3xs);
   text-align: left;
   font-size: var(--t1-m-32-size);
-  color: var(--white);
-  font-family: var(--p3-m-16);
+  color: var(--update-white);
+  font-family: var(--h3-semi-40);
 }

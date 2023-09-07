@@ -48,7 +48,7 @@
 .copyrightLinksChild {
   align-self: stretch;
   position: relative;
-  border-top: 1px solid var(--color-gray-400);
+  border-top: 1px solid var(--color-gray-300);
   box-sizing: border-box;
   height: 1px;
 }
@@ -127,6 +127,6 @@
   gap: var(--gap-21xl);
   text-align: left;
   font-size: var(--t2-m-24-size);
-  color: var(--white);
-  font-family: var(--p3-m-16);
+  color: var(--update-white);
+  font-family: var(--h3-semi-40);
 }

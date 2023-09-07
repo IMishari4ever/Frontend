@@ -1,10 +1,10 @@
 .nadiaAlie09 {
   flex: 1;
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   line-height: 159.69%;
-  font-family: var(--p3-m-16);
-  color: var(--white);
+  font-family: var(--h3-semi-40);
+  color: var(--update-white);
   text-align: right;
 }
 .maskGroupIcon {
@@ -14,7 +14,7 @@
   object-fit: cover;
   z-index: 0;
 }
-.frameChild {
+.frameChild13 {
   position: absolute;
   margin: 0 !important;
   top: 22px;

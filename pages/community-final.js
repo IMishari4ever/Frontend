@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import { useRouter } from "next/router";
 import HeaderNoLogin from "../components/header-no-login";
-import CTA from "/";
+import CTA from "../components/c-t-a";
 import FormContainer from "../components/form-container";
 import ContainerFooter from "../components/container-footer";
 import RightHeader from "../components/right-header";
@@ -14,10 +14,6 @@ const CommunityFinal = () => {
   }, [router]);
 
   const onFrameButtonClick = useCallback(() => {
-    router.push("/chat");
-  }, [router]);
-
-  const onFrameButton1Click = useCallback(() => {
     router.push("/chat");
   }, [router]);
 
@@ -53,7 +49,7 @@ const CommunityFinal = () => {
                     placeholder
                     right={false}
                     cTABackground="linear-gradient(88.16deg, #bf43d3, #7000ff)"
-                    cTAPadding="var(--padding-xs) 16px"
+                    cTAPadding="16px 20px"
                     cTAWidth="138px"
                   />
                   <div className={styles.gigRequestParent}>
@@ -170,10 +166,10 @@ const CommunityFinal = () => {
         group46="/group-46.svg"
         vector10="/vector-10.svg"
         frameACursor="unset"
-        boldEssentionalUIHome2="/bold--essentional-ui--home-24.svg"
-        boldSettingsFineTuningWid="/bold--settings-fine-tuning--widget-25.svg"
+        boldEssentionalUIHome2="/bold--essentional-ui--home-241.svg"
+        boldSettingsFineTuningWid="/bold--settings-fine-tuning--widget-251.svg"
         boldUsersUserRounded="/bold--users--user-rounded4.svg"
-        boldDuotoneMoneyWallet="/bold-duotone--money--wallet4.svg"
+        boldDuotoneMoneyWallet="/bold-duotone--money--wallet41.svg"
         onFrameLink5Click={onFrameLink4Click}
         boldSettingsFineTuningSet="/bold--settings-fine-tuning--settings2.svg"
         vector="/vector.svg"

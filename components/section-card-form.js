@@ -9,7 +9,7 @@ const SectionCardForm = ({
   propWidth,
   propFlexShrink,
 }) => {
-  const frameDiv2Style = useMemo(() => {
+  const frameDiv4Style = useMemo(() => {
     return {
       alignSelf: propAlignSelf,
     };
@@ -30,7 +30,7 @@ const SectionCardForm = ({
 
   return (
     <div className={styles.frameWrapper}>
-      <div className={styles.parent} style={frameDiv2Style}>
+      <div className={styles.parent} style={frameDiv4Style}>
         <div className={styles.div} style={divStyle}>
           +$675.00
         </div>
