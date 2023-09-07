@@ -309,7 +309,7 @@
   box-sizing: border-box;
   gap: var(--gap-11xl);
   text-align: right;
-  font-size: var(--h3-m-40-size);
-  color: var(--white);
-  font-family: var(--p3-m-16);
+  font-size: var(--h3-semi-40-size);
+  color: var(--update-white);
+  font-family: var(--h3-semi-40);
 }

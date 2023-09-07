@@ -31,7 +31,7 @@
 }
 .div1 {
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   line-height: 24px;
   color: var(--color-darkgray);
 }
@@ -74,7 +74,7 @@
   justify-content: flex-start;
   gap: var(--gap-3xs);
   text-align: right;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   color: var(--color-lightslategray-100);
 }
 .frameGroup {
@@ -133,7 +133,7 @@
 .iWillConvert {
   align-self: stretch;
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   line-height: 152%;
   font-weight: 500;
   text-align: right;
@@ -169,6 +169,6 @@
   cursor: pointer;
   text-align: left;
   font-size: var(--p1-m-20-size);
-  color: var(--white);
-  font-family: var(--p3-m-16);
+  color: var(--update-white);
+  font-family: var(--h3-semi-40);
 }

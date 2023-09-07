@@ -56,7 +56,7 @@
   padding: var(--padding-61xl) var(--padding-65xl);
   justify-content: center;
   text-align: left;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   color: var(--update-paragraph);
-  font-family: var(--p3-m-16);
+  font-family: var(--h3-semi-40);
 }

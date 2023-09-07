@@ -17,7 +17,7 @@
 .technologyGaming {
   position: relative;
   font-size: 15.96px;
-  font-family: var(--p3-m-16);
+  font-family: var(--h3-semi-40);
   color: var(--stock);
   text-align: left;
 }
@@ -121,7 +121,7 @@
   justify-content: center;
   z-index: 1;
   font-size: var(--h2-semi-48-size);
-  color: var(--white);
+  color: var(--update-white);
 }
 .icon {
   position: relative;
@@ -240,7 +240,7 @@
 }
 .plusWrapper {
   border-radius: var(--br-31xl);
-  border: 1px dashed var(--white);
+  border: 1px dashed var(--update-white);
   display: flex;
   flex-direction: row;
   padding: 14px;
@@ -255,7 +255,7 @@
 .connectWithAll {
   align-self: stretch;
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   line-height: 159.69%;
   color: var(--update-paragraph);
 }
@@ -313,7 +313,7 @@
 }
 .userWrapper {
   border-radius: var(--br-31xl);
-  border: 1px dashed var(--white);
+  border: 1px dashed var(--update-white);
   display: flex;
   flex-direction: column;
   padding: var(--padding-4xs);
@@ -363,7 +363,7 @@
   overflow: hidden;
   flex-direction: column;
   padding: 19px 28px;
-  color: var(--white);
+  color: var(--update-white);
 }
 .bankAccountNumberParent {
   align-self: stretch;
@@ -384,7 +384,7 @@
   align-items: flex-end;
   gap: var(--gap-21xl);
   font-size: var(--t1-m-32-size);
-  color: var(--white);
+  color: var(--update-white);
 }
 .frameContainer {
   flex: 1;
@@ -593,7 +593,7 @@
   gap: 37px;
 }
 .span {
-  color: var(--white);
+  color: var(--update-white);
   font-size: var(--t2-m-24-size);
 }
 .subtotalAmount {
@@ -657,8 +657,8 @@
   padding: var(--padding-21xl);
   gap: var(--gap-31xl);
   text-align: center;
-  font-size: var(--p3-m-16-size);
-  color: var(--white);
+  font-size: var(--p3-r-16-size);
+  color: var(--update-white);
 }
 .frameGroup {
   align-self: stretch;
@@ -668,7 +668,7 @@
 }
 .currentTransfers {
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   line-height: 159.69%;
   color: var(--update-paragraph);
 }
@@ -699,7 +699,7 @@
   justify-content: flex-start;
   max-width: 980px;
   font-size: var(--t1-m-32-size);
-  color: var(--white);
+  color: var(--update-white);
 }
 .headerParent {
   align-self: stretch;
@@ -728,5 +728,5 @@
   text-align: right;
   font-size: var(--t2-m-24-size);
   color: var(--update-paragraph);
-  font-family: var(--p3-m-16);
+  font-family: var(--h3-semi-40);
 }

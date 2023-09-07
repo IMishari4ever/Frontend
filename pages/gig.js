@@ -5,50 +5,26 @@ import ResponseTimeAvgUserContainer1 from "../components/response-time-avg-user-
 import ReviewCard from "../components/review-card";
 import InstrumentSelectionContainer1 from "../components/instrument-selection-container1";
 import SellerPreviousWorksContainer1 from "../components/seller-previous-works-container1";
+import GigIndex from "../components/container-card";
 import ContainerFooter from "../components/container-footer";
 import RightHeader from "../components/right-header";
 import styles from "./gig.module.css";
-import ContainerCard from "../components/container-card";
 const Gig = () => {
   const router = useRouter();
 
-  const onFrameContainer159Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer170Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer181Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer192Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer203Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer214Click = useCallback(() => {
+  const onFrameContainer10Click = useCallback(() => {
     router.push("/gig");
   }, [router]);
 
   const onFrameLinkClick = useCallback(() => {
-    router.push("/index1");
+    router.push("/");
   }, [router]);
 
   const onFrameLink4Click = useCallback(() => {
     router.push("/gigboost");
   }, [router]);
 
-  const onFrameButton4Click = useCallback(() => {
-    router.push("/chat");
-  }, [router]);
-
-  const onFrameButton5Click = useCallback(() => {
+  const onFrameButtonClick = useCallback(() => {
     router.push("/chat");
   }, [router]);
 
@@ -641,7 +617,7 @@ const Gig = () => {
               prop1="/169881781558095014-11.svg"
               price="$350"
               title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-              onFrameContainer54Click={onFrameContainer159Click}
+              onFrameContainer54Click={onFrameContainer10Click}
             />
             <ContainerCard
               animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife@2x.png"
@@ -650,7 +626,7 @@ const Gig = () => {
               prop1="/169881781558095014-11.svg"
               price="$350"
               title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-              onFrameContainer54Click={onFrameContainer170Click}
+              onFrameContainer54Click={onFrameContainer10Click}
             />
             <ContainerCard
               animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife@2x.png"
@@ -659,7 +635,7 @@ const Gig = () => {
               prop1="/169881781558095014-11.svg"
               price="$350"
               title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-              onFrameContainer54Click={onFrameContainer181Click}
+              onFrameContainer54Click={onFrameContainer10Click}
             />
             <ContainerCard
               animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife@2x.png"
@@ -668,7 +644,7 @@ const Gig = () => {
               prop1="/169881781558095014-11.svg"
               price="$350"
               title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-              onFrameContainer54Click={onFrameContainer192Click}
+              onFrameContainer54Click={onFrameContainer10Click}
             />
             <ContainerCard
               animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife@2x.png"
@@ -677,7 +653,7 @@ const Gig = () => {
               prop1="/169881781558095014-11.svg"
               price="$350"
               title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-              onFrameContainer54Click={onFrameContainer203Click}
+              onFrameContainer54Click={onFrameContainer10Click}
             />
             <ContainerCard
               animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife@2x.png"
@@ -686,7 +662,7 @@ const Gig = () => {
               prop1="/169881781558095014-11.svg"
               price="$350"
               title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-              onFrameContainer54Click={onFrameContainer214Click}
+              onFrameContainer54Click={onFrameContainer10Click}
             />
           </div>
         </div>

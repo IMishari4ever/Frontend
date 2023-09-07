@@ -50,15 +50,15 @@
 }
 .viewAllWorks {
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   font-weight: 500;
-  font-family: var(--p3-m-16);
-  color: var(--white);
+  font-family: var(--h3-semi-40);
+  color: var(--update-white);
   text-align: left;
 }
 .viewAllWorksWrapper {
   cursor: pointer;
-  border: 1px solid var(--white);
+  border: 1px solid var(--update-white);
   padding: var(--padding-smi) var(--padding-7xl);
   background-color: var(--jasim);
   border-radius: var(--br-3xs);
@@ -68,7 +68,7 @@
   justify-content: center;
 }
 .viewAllWorksWrapper:hover {
-  background-color: var(--color-gray-100);
+  background-color: var(--color-gray-800);
   cursor: pointer;
 }
 .frameParent {
@@ -80,6 +80,6 @@
   gap: var(--gap-21xl);
   text-align: right;
   font-size: var(--t1-m-32-size);
-  color: var(--white);
-  font-family: var(--p3-m-16);
+  color: var(--update-white);
+  font-family: var(--h3-semi-40);
 }

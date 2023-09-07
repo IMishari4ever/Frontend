@@ -145,7 +145,7 @@ const FrameComponent = ({
               ellipseDivBackground="linear-gradient(129.33deg, rgba(46, 63, 218, 0.3), rgba(110, 24, 124, 0.3))"
             />
             <Property1Default
-              boldSettingsFineTuningWid="/vector.svg"
+              boldSettingsFineTuningWid="/vector1.svg"
               text="Support"
               property1DefaultBackgroundColor="#242427"
               property1DefaultBackground="unset"

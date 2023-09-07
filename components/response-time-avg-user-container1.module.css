@@ -1,14 +1,14 @@
 .viewProfile {
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   line-height: 159.69%;
-  font-family: var(--p3-m-16);
-  color: var(--white);
+  font-family: var(--h3-semi-40);
+  color: var(--update-white);
   text-align: left;
 }
 .viewprofile {
   cursor: pointer;
-  border: 1px solid var(--white);
+  border: 1px solid var(--update-white);
   padding: var(--padding-3xs) var(--padding-xl);
   background-color: var(--jasim);
   border-radius: var(--br-3xs);
@@ -18,7 +18,7 @@
   justify-content: flex-start;
 }
 .viewprofile:hover {
-  background-color: var(--white);
+  background-color: var(--update-white);
   color: var(--color-black);
 }
 .rahimAlie {
@@ -103,6 +103,6 @@
   gap: var(--gap-3xs);
   text-align: left;
   font-size: var(--t3-r-22-size);
-  color: var(--white);
-  font-family: var(--p3-m-16);
+  color: var(--update-white);
+  font-family: var(--h3-semi-40);
 }

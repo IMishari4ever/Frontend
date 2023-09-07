@@ -2,67 +2,21 @@ import { useCallback } from "react";
 import { useRouter } from "next/router";
 import SearchIcons from "../components/search-icons";
 import FreelancersCard1 from "../components/freelancers-card1";
+import GigIndex from "../components/container-card";
 import ContainerFooter from "../components/container-footer";
-import RightHeader from "../components/right-header";
-import styles from "./index1.module.css";
-import ContainerCard from "../components/container-card";
-
+import styles from "./index.module.css";
 const Index1 = () => {
   const router = useRouter();
 
-  const onFrameContainer54Click = useCallback(() => {
+  const onFrameContainer10Click = useCallback(() => {
     router.push("/gig");
   }, [router]);
 
-  const onFrameContainer65Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer76Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer87Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer98Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer109Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer120Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer131Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer142Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer153Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameContainer164Click = useCallback(() => {
-    router.push("/gig");
-  }, [router]);
-
-  const onFrameLink5Click = useCallback(() => {
+  const onFrameLink4Click = useCallback(() => {
     router.push("/gigboost");
   }, [router]);
 
-  const onFrameButton10Click = useCallback(() => {
-    router.push("/chat");
-  }, [router]);
-
-  const onFrameButton11Click = useCallback(() => {
+  const onFrameButtonClick = useCallback(() => {
     router.push("/chat");
   }, [router]);
 
@@ -168,7 +122,7 @@ const Index1 = () => {
                 prop1="/169881781558095014-12.svg"
                 price="$350"
                 title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-                onFrameContainer54Click={onFrameContainer54Click}
+                onFrameContainer54Click={onFrameContainer10Click}
               />
               <ContainerCard
                 animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife1@2x.png"
@@ -177,7 +131,7 @@ const Index1 = () => {
                 prop1="/169881781558095014-12.svg"
                 price="$350"
                 title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-                onFrameContainer54Click={onFrameContainer65Click}
+                onFrameContainer54Click={onFrameContainer10Click}
               />
               <ContainerCard
                 animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife1@2x.png"
@@ -186,7 +140,7 @@ const Index1 = () => {
                 prop1="/169881781558095014-12.svg"
                 price="$350"
                 title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-                onFrameContainer54Click={onFrameContainer76Click}
+                onFrameContainer54Click={onFrameContainer10Click}
               />
               <ContainerCard
                 animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife1@2x.png"
@@ -195,7 +149,7 @@ const Index1 = () => {
                 prop1="/169881781558095014-12.svg"
                 price="$350"
                 title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-                onFrameContainer54Click={onFrameContainer87Click}
+                onFrameContainer54Click={onFrameContainer10Click}
               />
               <ContainerCard
                 animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife1@2x.png"
@@ -204,7 +158,7 @@ const Index1 = () => {
                 prop1="/169881781558095014-12.svg"
                 price="$350"
                 title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-                onFrameContainer54Click={onFrameContainer98Click}
+                onFrameContainer54Click={onFrameContainer10Click}
               />
               <ContainerCard
                 animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife1@2x.png"
@@ -213,7 +167,7 @@ const Index1 = () => {
                 prop1="/169881781558095014-12.svg"
                 price="$350"
                 title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-                onFrameContainer54Click={onFrameContainer109Click}
+                onFrameContainer54Click={onFrameContainer10Click}
               />
               <ContainerCard
                 animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife1@2x.png"
@@ -222,7 +176,7 @@ const Index1 = () => {
                 prop1="/169881781558095014-12.svg"
                 price="$350"
                 title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-                onFrameContainer54Click={onFrameContainer120Click}
+                onFrameContainer54Click={onFrameContainer10Click}
               />
               <ContainerCard
                 animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife1@2x.png"
@@ -231,7 +185,7 @@ const Index1 = () => {
                 prop1="/169881781558095014-12.svg"
                 price="$350"
                 title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-                onFrameContainer54Click={onFrameContainer131Click}
+                onFrameContainer54Click={onFrameContainer10Click}
               />
               <ContainerCard
                 animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife1@2x.png"
@@ -240,7 +194,7 @@ const Index1 = () => {
                 prop1="/169881781558095014-12.svg"
                 price="$350"
                 title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-                onFrameContainer54Click={onFrameContainer142Click}
+                onFrameContainer54Click={onFrameContainer10Click}
               />
               <ContainerCard
                 animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife2@2x.png"
@@ -249,7 +203,7 @@ const Index1 = () => {
                 prop1="/169881781558095014-13.svg"
                 price="$350"
                 title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-                onFrameContainer54Click={onFrameContainer153Click}
+                onFrameContainer54Click={onFrameContainer10Click}
               />
               <ContainerCard
                 animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife2@2x.png"
@@ -258,7 +212,7 @@ const Index1 = () => {
                 prop1="/169881781558095014-13.svg"
                 price="$350"
                 title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-                onFrameContainer54Click={onFrameContainer164Click}
+                onFrameContainer54Click={onFrameContainer10Click}
               />
             </div>
           </div>
@@ -335,18 +289,146 @@ const Index1 = () => {
           dimensionCodeImageUrlText="/youtube-link1.svg"
         />
       </div>
-      <RightHeader
-        group46="/group-46.svg"
-        vector10="/vector-10.svg"
-        boldEssentionalUIHome2="/bold--essentional-ui--home-22.svg"
-        boldSettingsFineTuningWid="/bold--settings-fine-tuning--widget-23.svg"
-        boldUsersUserRounded="/bold--users--user-rounded2.svg"
-        boldDuotoneMoneyWallet="/bold-duotone--money--wallet2.svg"
-        onFrameLink5Click={onFrameLink5Click}
-        boldSettingsFineTuningSet="/bold--settings-fine-tuning--settings2.svg"
-        vector="/vector.svg"
-        maskGroup={`https://d1xzdqg8s8ggsr.cloudfront.net/64f992e4aa40a9b30a2520d5/47730bb8-76f3-429d-8c90-598c53de9c89_1694078623736545100?Expires=-62135596800&Signature=YdjgrAsdrseK6hXnE-0kdbY1YN7Y~8SIkTw5By-P3VBaZ-urTMdTEZ9jBTlzjZlULAel4KDWTFCzyHakFtJg3m6fei1dK8bbc95arY-mILtN4QcVB-alFGDyUkxKmFetPHbASrJchujQXCbc1A5VKGUx-2aYPpCggxZNfP8OsNnTHHSCPgYBin3OVbJcfoRP~xdvcBx04zSQQTBkr6HxnX2YnvEyxgiH21IfnBnE2ZE25T6daHFR5cxf22I4A~tCdOUQofoPwEPF5uAXGFzN25G7gTqP0VLyhBUwbWHNelgPIpe93K--u2RkaJUcfQt2W1rOP71Pi4LRCUp69OsfpQ__&Key-Pair-Id=K1P54FZWCHCL6J`}
-      />
+      <div className={styles.containerWrapper}>
+        <div className={styles.container1}>
+          <div className={styles.logo}>
+            <div className={styles.logoHere}>LOGO HERE</div>
+          </div>
+          <div className={styles.navbar}>
+            <img className={styles.navbarChild} alt="" src="/group-46.svg" />
+            <img className={styles.navbarItem} alt="" src="/vector-10.svg" />
+            <div className={styles.navbarInner}>
+              <div className={styles.instanceParent}>
+                <a className={styles.frameA}>
+                  <div className={styles.ellipseContainer}>
+                    <div className={styles.frameChild6} />
+                    <img
+                      className={styles.boldEssentionalUiHome}
+                      alt=""
+                      src="/bold--essentional-ui--home-22.svg"
+                    />
+                  </div>
+                  <div className={styles.category}>Home</div>
+                </a>
+                <a className={styles.frameParent3}>
+                  <div className={styles.ellipseContainer}>
+                    <div className={styles.frameChild7} />
+                    <img
+                      className={styles.boldEssentionalUiHome}
+                      alt=""
+                      src="/bold--settings-fine-tuning--widget-23.svg"
+                    />
+                  </div>
+                  <div className={styles.category}>Category</div>
+                </a>
+                <a className={styles.frameParent3}>
+                  <div className={styles.ellipseContainer}>
+                    <div className={styles.frameChild7} />
+                    <img
+                      className={styles.boldEssentionalUiHome}
+                      alt=""
+                      src="/bold--users--user-rounded2.svg"
+                    />
+                  </div>
+                  <div className={styles.category}>Profile</div>
+                </a>
+                <a className={styles.frameParent3}>
+                  <div className={styles.ellipseContainer}>
+                    <div className={styles.frameChild7} />
+                    <img
+                      className={styles.boldEssentionalUiHome}
+                      alt=""
+                      src="/bold-duotone--money--wallet2.svg"
+                    />
+                  </div>
+                  <div className={styles.category}>Checkout</div>
+                </a>
+                <a className={styles.frameParent6} onClick={onFrameLink4Click}>
+                  <div className={styles.ellipseContainer}>
+                    <div className={styles.frameChild7} />
+                    <img
+                      className={styles.boldEssentionalUiHome}
+                      alt=""
+                      src="/bold--settings-fine-tuning--settings2.svg"
+                    />
+                  </div>
+                  <div className={styles.category}>Settings</div>
+                </a>
+                <a className={styles.frameParent3}>
+                  <div className={styles.ellipseContainer}>
+                    <div className={styles.frameChild7} />
+                    <img
+                      className={styles.boldEssentionalUiHome}
+                      alt=""
+                      src="/vector.svg"
+                    />
+                  </div>
+                  <div className={styles.category}>Support</div>
+                </a>
+              </div>
+            </div>
+            <div className={styles.navbarInner1}>
+              <div className={styles.frameChild12} />
+            </div>
+            <div className={styles.frameParent8}>
+              <div className={styles.activePeopleWrapper}>
+                <div className={styles.activePeople}>Active People</div>
+              </div>
+              <button
+                className={styles.nadiaAlie09Parent}
+                onClick={onFrameButtonClick}
+              >
+                <div className={styles.nadiaAlie09}>Nadia Alie</div>
+                <div className={styles.maskGroupParent}>
+                  <img
+                    className={styles.maskGroupIcon}
+                    alt=""
+                    src="/mask-group@2x.png"
+                  />
+                  <div className={styles.frameChild13} />
+                </div>
+              </button>
+              <button
+                className={styles.nadiaAlie09Group}
+                onClick={onFrameButtonClick}
+              >
+                <div className={styles.nadiaAlie09}>Jack Smith_45</div>
+                <div className={styles.maskGroupParent}>
+                  <img
+                    className={styles.maskGroupIcon}
+                    alt=""
+                    src="/mask-group@2x.png"
+                  />
+                  <div className={styles.frameChild13} />
+                </div>
+              </button>
+              <button className={styles.nadiaAlie09Container}>
+                <div className={styles.nadiaAlie09}>Ema Watson_56</div>
+                <div className={styles.maskGroupParent}>
+                  <img
+                    className={styles.maskGroupIcon}
+                    alt=""
+                    src="/mask-group@2x.png"
+                  />
+                  <div className={styles.frameChild13} />
+                </div>
+              </button>
+              <button className={styles.frameButton}>
+                <div className={styles.nadiaAlie09}>Williumson_89</div>
+                <div className={styles.maskGroupParent}>
+                  <img
+                    className={styles.maskGroupIcon}
+                    alt=""
+                    src="/mask-group@2x.png"
+                  />
+                  <div className={styles.frameChild13} />
+                </div>
+              </button>
+              <div className={styles.frameChild17} />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

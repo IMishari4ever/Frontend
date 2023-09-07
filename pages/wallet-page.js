@@ -14,11 +14,7 @@ const WalletPage = () => {
     router.push("/gigboost");
   }, [router]);
 
-  const onFrameButton8Click = useCallback(() => {
-    router.push("/chat");
-  }, [router]);
-
-  const onFrameButton9Click = useCallback(() => {
+  const onFrameButtonClick = useCallback(() => {
     router.push("/chat");
   }, [router]);
 

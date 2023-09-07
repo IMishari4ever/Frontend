@@ -50,7 +50,7 @@
   position: relative;
   font-size: var(--t1-m-32-size);
   font-weight: 600;
-  color: var(--white);
+  color: var(--update-white);
   text-align: right;
 }
 .frameContainer,
@@ -78,7 +78,7 @@
 }
 .hours {
   font-weight: 500;
-  color: var(--white);
+  color: var(--update-white);
   text-align: right;
 }
 .responseTimeAvgParent {
@@ -129,10 +129,10 @@
 .continue {
   flex: 1;
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   font-weight: 500;
-  font-family: var(--p3-m-16);
-  color: var(--white);
+  font-family: var(--h3-semi-40);
+  color: var(--update-white);
   text-align: center;
 }
 .continueWrapper {
@@ -171,7 +171,7 @@
   align-items: center;
   justify-content: center;
   gap: var(--gap-31xl);
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   color: var(--color-mediumslateblue);
 }
 .gigSpecification,
@@ -231,7 +231,7 @@
 .frameChild {
   align-self: stretch;
   position: relative;
-  border-top: 1px solid var(--color-gray-300);
+  border-top: 1px solid var(--color-gray-200);
   box-sizing: border-box;
   height: 1px;
 }
@@ -290,10 +290,10 @@
 }
 .orderNow {
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   font-weight: 500;
-  font-family: var(--p3-m-16);
-  color: var(--white);
+  font-family: var(--h3-semi-40);
+  color: var(--update-white);
   text-align: left;
 }
 .orderNowWrapper {
@@ -311,10 +311,10 @@
 }
 .contactMe {
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   font-weight: 500;
-  font-family: var(--p3-m-16);
-  color: var(--white);
+  font-family: var(--h3-semi-40);
+  color: var(--update-white);
   text-align: center;
 }
 .btnGourp,
@@ -460,7 +460,7 @@
 .responsibilities {
   margin: 0;
   font-size: var(--t2-m-24-size);
-  color: var(--white);
+  color: var(--update-white);
 }
 .blankLine3,
 .responsibilities {
@@ -470,7 +470,7 @@
 .blankLine2 {
   margin: 0;
   font-size: var(--t2-m-24-size);
-  color: var(--white);
+  color: var(--update-white);
 }
 .span {
   line-height: 142.19%;
@@ -483,7 +483,7 @@
 }
 .blankLine4 {
   margin: 0;
-  color: var(--white);
+  color: var(--update-white);
 }
 .budget2 {
   font-weight: 500;
@@ -708,7 +708,7 @@
   justify-content: flex-end;
   font-size: var(--p1-m-20-size);
   color: var(--update-paragraph);
-  font-family: var(--p3-m-16);
+  font-family: var(--h3-semi-40);
 }
 .frameParent19 {
   flex: 1;
@@ -808,8 +808,8 @@
   gap: var(--gap-11xl);
   text-align: left;
   font-size: var(--t2-m-24-size);
-  color: var(--white);
-  font-family: var(--p3-m-16);
+  color: var(--update-white);
+  font-family: var(--h3-semi-40);
 }
 @media screen and (max-width: 960px) {
   .closeUpImageProgramerWorkiIcon {

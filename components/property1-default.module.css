@@ -33,7 +33,7 @@
 .property1default {
   text-decoration: none;
   border-radius: var(--br-3xs);
-  background-color: var(--color-gray-500);
+  background-color: var(--color-gray-400);
   display: flex;
   flex-direction: column;
   padding: var(--padding-xl) var(--padding-7xl);
@@ -44,7 +44,7 @@
   min-width: 100px;
   text-align: left;
   font-size: var(--font-size-xs);
-  color: var(--white);
+  color: var(--update-white);
   font-family: var(--font-inter);
   flex: 1;
 }

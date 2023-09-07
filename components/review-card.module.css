@@ -8,7 +8,7 @@
 }
 .unitedKingdom {
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   line-height: 159.69%;
   color: var(--update-paragraph);
 }
@@ -73,7 +73,7 @@
 .certainlyGunsN {
   align-self: stretch;
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   line-height: 24px;
   text-align: right;
 }
@@ -110,7 +110,7 @@
 }
 .frameParent3 {
   border-radius: var(--br-3xs);
-  background-color: var(--color-gray-200);
+  background-color: var(--color-gray-100);
   padding: var(--padding-11xl) var(--padding-39xl) var(--padding-11xl)
     var(--padding-11xl);
   align-items: flex-start;
@@ -132,7 +132,7 @@
 .canada1 {
   align-self: stretch;
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   line-height: 159.69%;
   color: var(--update-paragraph);
 }
@@ -162,6 +162,6 @@
   gap: var(--gap-21xl);
   text-align: right;
   font-size: var(--t1-m-32-size);
-  color: var(--white);
-  font-family: var(--p3-m-16);
+  color: var(--update-white);
+  font-family: var(--h3-semi-40);
 }

@@ -13,7 +13,7 @@
   font-weight: 500;
 }
 .m {
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   line-height: 159.69%;
   color: var(--update-paragraph);
 }
@@ -57,6 +57,6 @@
   gap: var(--gap-base);
   text-align: left;
   font-size: var(--p2-r-18-size);
-  color: var(--white);
-  font-family: var(--p3-m-16);
+  color: var(--update-white);
+  font-family: var(--h3-semi-40);
 }

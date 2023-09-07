@@ -10,11 +10,7 @@ const Gigboost = () => {
     router.push("/gigboost");
   }, [router]);
 
-  const onFrameButton9Click = useCallback(() => {
-    router.push("/chat");
-  }, [router]);
-
-  const onFrameButton10Click = useCallback(() => {
+  const onFrameButtonClick = useCallback(() => {
     router.push("/chat");
   }, [router]);
 
@@ -127,7 +123,7 @@ const Gigboost = () => {
         vector10="/vector-10.svg"
         frameACursor="unset"
         boldEssentionalUIHome2="/bold--essentional-ui--home-23.svg"
-        boldSettingsFineTuningWid="/bold--settings-fine-tuning--widget-24.svg"
+        boldSettingsFineTuningWid="/bold--settings-fine-tuning--widget-241.svg"
         boldUsersUserRounded="/bold--users--user-rounded3.svg"
         boldDuotoneMoneyWallet="/bold-duotone--money--wallet3.svg"
         onFrameLink5Click={onFrameLink4Click}

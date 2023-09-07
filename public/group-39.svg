@@ -1,13 +1,13 @@
 <svg width="735" height="805" viewBox="0 0 735 805" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M416.825 225.386C378.692 256.632 276.388 320.083 199.14 359.356C132.286 393.345 63.7397 414.698 261.188 557.763C458.636 700.828 134.305 728.172 26.0029 712.4" stroke="#393939" stroke-opacity="0.8" stroke-width="2"/>
 <path d="M592.111 66.043C533.896 105.625 377.043 185.181 258.318 233.96C155.568 276.177 49.7715 301.817 361.302 495.381C672.833 688.945 169.803 713.942 1.00343 689.736" stroke="#393939" stroke-opacity="0.8" stroke-width="2"/>
-<circle cx="373.5" cy="443.5" r="361" fill="url(#paint0_linear_0_2387)" fill-opacity="0.9" stroke="url(#paint1_linear_0_2387)"/>
+<circle cx="373.5" cy="443.5" r="361" fill="url(#paint0_linear_0_1643)" fill-opacity="0.9" stroke="url(#paint1_linear_0_1643)"/>
 <defs>
-<linearGradient id="paint0_linear_0_2387" x1="373.5" y1="82" x2="373.5" y2="663.543" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_0_1643" x1="373.5" y1="82" x2="373.5" y2="663.543" gradientUnits="userSpaceOnUse">
 <stop stop-color="#2C2C2C"/>
 <stop offset="1" stop-color="#151515" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint1_linear_0_2387" x1="373.5" y1="82" x2="373.5" y2="805" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear_0_1643" x1="373.5" y1="82" x2="373.5" y2="805" gradientUnits="userSpaceOnUse">
 <stop stop-color="#2B2929"/>
 <stop offset="1" stop-opacity="0"/>
 </linearGradient>

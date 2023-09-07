@@ -22,7 +22,7 @@ const ReviewCard = ({
   propAlignSelf,
   propFlex,
 }) => {
-  const frameDiv3Style = useMemo(() => {
+  const frameDiv2Style = useMemo(() => {
     return {
       alignSelf: propAlignSelf,
       flex: propFlex,
@@ -32,7 +32,7 @@ const ReviewCard = ({
   return (
     <div
       className={styles.clientsReviewsAboutTheSelParent}
-      style={frameDiv3Style}
+      style={frameDiv2Style}
     >
       <div className={styles.clientsReviewsAbout}>
         Client’s Reviews about the Seller

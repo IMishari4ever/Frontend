@@ -49,7 +49,7 @@
   top: 519.39px;
   left: 583.42px;
   border-radius: 50%;
-  background-color: var(--color-gray-800);
+  background-color: var(--color-gray-700);
   filter: blur(200px);
   width: 715.99px;
   height: 729.57px;
@@ -67,7 +67,7 @@
   top: 1986px;
   left: 583.42px;
   border-radius: 50%;
-  background-color: var(--color-gray-800);
+  background-color: var(--color-gray-700);
   filter: blur(200px);
   width: 715.99px;
   height: 729.57px;
@@ -198,7 +198,7 @@
   line-height: 152%;
 }
 .music {
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   line-height: 159.69%;
   color: #48464e;
 }
@@ -206,7 +206,7 @@
   position: relative;
   text-align: left;
   font-size: var(--p1-m-20-size);
-  color: var(--white);
+  color: var(--update-white);
 }
 .container {
   align-self: stretch;
@@ -246,7 +246,7 @@
   justify-content: flex-end;
   gap: var(--gap-xl);
   text-align: right;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
 }
 .frameParent1 {
   align-self: stretch;
@@ -360,7 +360,7 @@
 .frameChild5,
 .frameInput,
 .frameParent5 {
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -375,7 +375,7 @@
 .frameChild5,
 .frameInput {
   border: 0;
-  font-family: var(--p3-m-16);
+  font-family: var(--h3-semi-40);
   background-color: var(--jasim);
   border-radius: var(--br-7xs);
   height: 54px;
@@ -435,8 +435,8 @@
 }
 .frameChild7 {
   border: 0;
-  font-family: var(--p3-m-16);
-  font-size: var(--p3-m-16-size);
+  font-family: var(--h3-semi-40);
+  font-size: var(--p3-r-16-size);
   background-color: var(--jasim);
   border-radius: var(--br-7xs);
   height: 54px;
@@ -456,7 +456,7 @@
 }
 .gigPrice {
   position: relative;
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   line-height: 159.69%;
 }
 .parent1 {
@@ -477,9 +477,9 @@
   height: 1px;
 }
 .total {
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
   font-weight: 500;
-  color: var(--white);
+  color: var(--update-white);
 }
 .frameParent13,
 .parent4 {
@@ -510,7 +510,7 @@
   background: linear-gradient(88.16deg, #bf43d3, #7000ff);
   flex-direction: row;
   padding: var(--padding-base) var(--padding-13xl);
-  font-size: var(--p3-m-16-size);
+  font-size: var(--p3-r-16-size);
 }
 .frameParent12 {
   background-color: var(--update-gray);
@@ -558,7 +558,7 @@
   gap: var(--gap-5xl);
   text-align: right;
   font-size: var(--t2-m-24-size);
-  font-family: var(--p3-m-16);
+  font-family: var(--h3-semi-40);
 }
 .frameParent {
   flex: 1;
@@ -589,6 +589,6 @@
   gap: var(--gap-3xs);
   text-align: left;
   font-size: var(--p1-m-20-size);
-  color: var(--white);
+  color: var(--update-white);
   font-family: var(--font-inter);
 }
