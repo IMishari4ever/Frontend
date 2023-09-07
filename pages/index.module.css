@@ -740,6 +740,40 @@
     box-sizing: border-box;
   }
 }
+
+.openHeader {
+  cursor: pointer;
+  display: none;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  position: fixed;
+  right: 0;
+  background-color: #242427;
+  top: 0;
+  transform: translateY(80vw);
+  border-radius: 10px 0 0 10px;
+  z-index: 99;
+}
+
+.closeHeader {
+  cursor: pointer;
+  display: none;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  position: fixed;
+  right: 0;
+  background-color: #242427;
+  top: 0;
+  border-radius: 10px 0 0 10px;
+  z-index: 99;
+}
+
 @media screen and (max-width: 960px) {
   .courseBannerContent {
     padding: var(--padding-xl);
@@ -753,6 +787,25 @@
   .container1 {
     display: none;
   }
+  .openHeader {
+    display: flex;
+  }
+  .showContainer1 {
+    display: flex; 
+    width: 100%;
+  }
+  .containerWrapper:has(.showContainer1) {
+    position: fixed; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #242427;
+  }
+
   .index1 {
     padding-left: var(--padding-mini);
     padding-right: var(--padding-mini);

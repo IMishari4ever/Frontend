@@ -5,7 +5,7 @@ import ResponseTimeAvgUserContainer1 from "../components/response-time-avg-user-
 import ReviewCard from "../components/review-card";
 import InstrumentSelectionContainer1 from "../components/instrument-selection-container1";
 import SellerPreviousWorksContainer1 from "../components/seller-previous-works-container1";
-import GigIndex from "../components/container-card";
+import ContainerCard from "../components/container-card";
 import ContainerFooter from "../components/container-footer";
 import RightHeader from "../components/right-header";
 import styles from "./gig.module.css";
@@ -22,10 +22,6 @@ const Gig = () => {
 
   const onFrameLink4Click = useCallback(() => {
     router.push("/gigboost");
-  }, [router]);
-
-  const onFrameButtonClick = useCallback(() => {
-    router.push("/chat");
   }, [router]);
 
   const onFrameButtonClick = useCallback(() => {

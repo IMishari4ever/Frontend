@@ -5,3 +5,41 @@
   justify-content: flex-start;
   z-index: 3;
 }
+
+.frameParent3,
+.frameParent6 {
+  text-decoration: none;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-400);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-7xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  min-width: 100px;
+  color: inherit;
+}
+.frameButton:hover,
+.frameParent3:hover,
+.frameParent6:hover,
+.nadiaAlie09Container:hover,
+.nadiaAlie09Group:hover,
+.nadiaAlie09Parent:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 63, 218, 0.36) 0,
+    rgba(205, 20, 235, 0.36) 100%
+  );
+}
+.frameParent6 {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .indexInner {
+    display: none;
+  }
+}

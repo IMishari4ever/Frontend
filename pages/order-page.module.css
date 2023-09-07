@@ -260,6 +260,7 @@
 }
 .table1 {
   overflow-x: auto;
+  width: 100%;
   gap: var(--gap-3xs);
 }
 .frameGroup,
@@ -290,6 +291,8 @@
   flex-direction: column;
   gap: var(--gap-16xl);
   z-index: 2;
+  max-width: 100%;
+  min-width: 0;
 }
 .orderPage {
   position: relative;
