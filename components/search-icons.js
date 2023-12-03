@@ -14,6 +14,7 @@ const SearchIcons = ({
   lEFT,
 }) => {
   return (
+   
     <div className={styles.searchIcons}>
       <div className={styles.searchIconsInner}>
         <div className={styles.ellipseWrapper}>
