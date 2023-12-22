@@ -21,6 +21,34 @@ export default function Login() {
     router.push('/gigboost');
   }, [router]);
 
+
+  const authenticateLogin = () =>{
+    //alert("hi from authenticateLogin")
+    var username = document.getElementById("username").value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+
+
+    var data = {
+      username : username,
+      password : password 
+    }
+    fetch('http://134.255.234.247:8800/api/auth/login' ,{
+      method: 'POST',
+      headers : {
+        'Content-Type' : 'application/json'
+      },
+      body:JSON.stringify(data)
+
+    })
+    .then(response => response.json())
+    .then(res =>{
+      console.log("res", res);
+      localStorage.setItem("id" , res?._id
+      )
+    })    
+  }
+
   return (
     //  others Area
 
@@ -161,6 +189,7 @@ export default function Login() {
                       className={styles.input}
                       type="text"
                       placeholder="اسم المستخدم"
+                      id='username'
                     />
                   </div>
                   <div className={styles.input_area}>
@@ -169,6 +198,7 @@ export default function Login() {
                       type="email"
                       required
                       placeholder="بريد إلكتروني"
+                      id='email'
                     />
                   </div>
                   <div className={`${styles.input_area}  ${styles.password}`}>
@@ -177,6 +207,7 @@ export default function Login() {
                       type={show ? 'text' : 'password'}
                       required
                       placeholder="اكلمه المرو"
+                      id='password'
                     />
                     <svg
                       className={styles.show}
@@ -214,7 +245,8 @@ export default function Login() {
                     <p>تذكرني</p>
                   </div>
                   <div className={styles.input_area}>
-                    <button className={styles.submit}>الدخول</button>
+                    <button className={styles.submit}
+                    onClick={authenticateLogin}>الدخول</button>
                   </div>
                   <div className={styles.input_area}>
                     <div

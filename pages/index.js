@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import SearchIcons from "../components/search-icons";
 import FreelancersCard1 from "../components/freelancers-card1";
@@ -6,7 +6,18 @@ import ContainerCard from "../components/container-card";
 import ContainerFooter from "../components/container-footer";
 import styles from "./index.module.css";
 import RightHeader from "../components/right-header";
+
+
 const Index1 = () => {
+  const [gigs, setGigs] = useState([]);
+  console.log("gifgs" , gigs)
+  useEffect(() => {
+    fetch('http://134.255.234.247:8800/api/gigs')
+    .then(response => response.json())
+    .then(res => {setGigs(res)
+    })
+  }, [])
+
   const router = useRouter();
 
   const onFrameContainer10Click = useCallback(() => {
@@ -22,6 +33,7 @@ const Index1 = () => {
   }, [router]);
 
   return (
+
     <div className={styles.index1}>
       <img className={styles.indexChild} alt="" src="/group-394.svg" />
       <img className={styles.vGIcon} alt="" src="/vg.svg" />
@@ -116,16 +128,26 @@ const Index1 = () => {
               Browse Services As your Need
             </div>
             <div className={styles.componentParent}>
-              <ContainerCard
-                animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife1@2x.png"
-                prop="/9793425631537356145-12.svg"
-                maskGroup="/mask-group14@2x.png"
-                prop1="/169881781558095014-12.svg"
-                price="$350"
-                title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
-                onFrameContainer54Click={onFrameContainer10Click}
-              />
-              <ContainerCard
+              
+               {gigs
+                .sort((a, b) => (b.pinned || 0) - (a.pinned || 0))
+                .map((cardData) => {
+                  console.log("id" , cardData.id , "pinnned" , cardData.pinned )
+                  return (
+                  <ContainerCard
+                    key={cardData.id}
+                    animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife1@2x.png"
+                    prop="/9793425631537356145-12.svg"
+                    maskGroup="/mask-group14@2x.png"
+                    prop1="/169881781558095014-12.svg"
+                    price={cardData?.price}
+                    title={cardData?.title}
+                   // pinned={cardData?.pinned}
+                    onFrameContainer54Click={onFrameContainer10Click}
+                  />
+                )})}
+
+              {/* <ContainerCard
                 animatedBottleHoldingTool="/animatedbottleholdingtoolstilllife1@2x.png"
                 prop="/9793425631537356145-12.svg"
                 maskGroup="/mask-group14@2x.png"
@@ -214,7 +236,7 @@ const Index1 = () => {
                 price="$350"
                 title={`I will Convert Psd to HTML, CSS 3, Basic Javascript & Bootstrap Design`}
                 onFrameContainer54Click={onFrameContainer10Click}
-              />
+              /> */}
             </div>
           </div>
           <div className={styles.frameDiv}>
