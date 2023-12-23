@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback  , useEffect , useState} from "react";
 import { useRouter } from "next/router";
 import HeaderNoLogin from "../components/header-no-login";
 import CTA from "../components/c-t-a";
@@ -7,6 +7,14 @@ import ContainerFooter from "../components/container-footer";
 import RightHeader from "../components/right-header";
 import styles from "./community-final.module.css";
 const CommunityFinal = () => {
+  const [community, setCommunity] = useState([]);
+  console.log("gifgs" , community)
+  useEffect(() => {
+    fetch('http://134.255.234.247:8800/api/community')
+    .then(response => response.json())
+    .then(res => {setCommunity(res)
+    })
+  }, [])
   const router = useRouter();
 
   const onFrameLink4Click = useCallback(() => {
@@ -61,94 +69,33 @@ const CommunityFinal = () => {
                 </div>
               </div>
               <div className={styles.frameDiv}>
-                <FormContainer
-                  imageDimensions="/ellipse-219@2x.png"
-                  imageIdentifier="/vector5.svg"
-                  imageCode="/vector5.svg"
-                  imageCode2="/ellipse-2191@2x.png"
-                />
-                <img className={styles.lineIcon} alt="" src="/line-23.svg" />
-                <div className={styles.frameParent1}>
-                  <div className={styles.frameParent2}>
-                    <div className={styles.ellipseGroup}>
-                      <img
-                        className={styles.ellipseIcon}
-                        alt=""
-                        src="/ellipse-2192@2x.png"
-                      />
-                      <div className={styles.frameParent3}>
-                        <div className={styles.abdullahWrapper}>
-                          <div className={styles.abdullah}>Abdullah</div>
-                        </div>
-                        <div className={styles.frameWrapper1}>
-                          <div className={styles.vectorParent}>
-                            <img
-                              className={styles.vectorIcon}
-                              alt=""
-                              src="/vector6.svg"
-                            />
-                            <div className={styles.lastInteractin5}>
-                              Last interactin 5 Hours ago
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className={styles.frameParent4}>
-                      <div className={styles.frameParent5}>
-                        <div className={styles.adamDavisWrapper}>
-                          <div className={styles.adamDavis}>Adam Davis</div>
-                        </div>
-                        <div className={styles.frameWrapper2}>
-                          <div className={styles.vectorParent}>
-                            <div className={styles.hoursAgo}>5 Hours ago</div>
-                            <img
-                              className={styles.vectorIcon}
-                              alt=""
-                              src="/vector6.svg"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <img
-                        className={styles.ellipseIcon}
-                        alt=""
-                        src="/ellipse-2193@2x.png"
-                      />
-                    </div>
-                  </div>
-                  <div className={styles.softUiDesign}>
-                    Soft UI Design Sustem - Free Resources and Starters
-                  </div>
-                </div>
-                <img className={styles.lineIcon} alt="" src="/line-24.svg" />
-                <FormContainer
-                  imageDimensions="/ellipse-2194@2x.png"
-                  imageIdentifier="/vector7.svg"
-                  imageCode="/vector7.svg"
-                  imageCode2="/ellipse-2195@2x.png"
-                />
-                <img className={styles.lineIcon} alt="" src="/line-25.svg" />
-                <FormContainer
-                  imageDimensions="/ellipse-2196@2x.png"
-                  imageIdentifier="/vector8.svg"
-                  imageCode="/vector8.svg"
-                  imageCode2="/ellipse-2197@2x.png"
-                />
-                <img className={styles.lineIcon} alt="" src="/line-26.svg" />
-                <FormContainer
-                  imageDimensions="/ellipse-2198@2x.png"
-                  imageIdentifier="/vector9.svg"
-                  imageCode="/vector9.svg"
-                  imageCode2="/ellipse-2199@2x.png"
-                />
-                <img className={styles.lineIcon} alt="" src="/line-27.svg" />
-                <FormContainer
+                  {/* <FormContainer
                   imageDimensions="/ellipse-21910@2x.png"
                   imageIdentifier="/vector10.svg"
                   imageCode="/vector10.svg"
                   imageCode2="/ellipse-21911@2x.png"
-                />
+                /> */}
+                {
+                  community?.posts?.map((comm) => (
+
+                    <>
+                      <FormContainer
+                        imageDimensions="/ellipse-2196@2x.png"
+                        imageIdentifier="/vector8.svg"
+                        imageCode="/vector8.svg"
+                        imageCode2="/ellipse-2197@2x.png"
+                        title = {comm?.title}
+                        category = {comm?.category}
+                        createdOn = {comm?.createdOn}
+                        status = {comm?.status}
+                        description = {comm?.description}
+
+                      />
+                      <img className={styles.lineIcon} alt="" src="/line-26.svg" />
+                    </>
+                  ))
+
+                }
               </div>
             </div>
           </div>

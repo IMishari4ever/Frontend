@@ -16,7 +16,7 @@ const Index1 = () => {
     .then(response => response.json())
     .then(res => {setGigs(res)
     })
-  }, [])
+  }, [gigs])
 
   const router = useRouter();
 

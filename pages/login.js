@@ -13,8 +13,6 @@ import RightHeader from '../components/right-header';
 export default function Login() {
   const [show, setShow] = useState(false);
 
-  //
-
   const router = useRouter();
 
   const onFrameLink4Click = useCallback(() => {

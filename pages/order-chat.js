@@ -11,7 +11,40 @@ import AmountForm from '../components/amount-form';
 import SectionCardForm from '../components/section-card-form';
 import ContainerFooter from '../components/container-footer';
 import RightHeader from '../components/right-header';
+
+
+
 function orderChat() {
+  
+  const dispute = useCallback((e )  => {
+    fetch('134.255.234.247:8800/api/disputes/', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        content: "You really",
+        //user: localStorage.getItem("id"),
+        description: "hehe",
+        title: "title-one",
+        // seller: localStorage.getItem("id"),
+        // buyer: localStorage.getItem("id"),
+      }),
+    })
+      
+      .then(res => {
+        console.log("res", res);
+      })
+      .catch(error => {
+        console.error('Error during fetch:', error);
+      });
+  }, []);
+
+  const disputeHandler = useCallback((event) => {
+    event.stopPropagation(); // Stop event propagation
+    dispute();
+  }, [dispute]);
+
   const router = useRouter();
 
   const onFrameLink4Click = useCallback(() => {
@@ -176,7 +209,7 @@ function orderChat() {
                     padding: '10px 0px',
                   }}
                 >
-                  <button className={styles.left_down_button_one}>يلغي</button>
+                  <button className={styles.left_down_button_one} onClick={disputeHandler}>يلغي</button>
                   <button className={styles.left_down_button_two}>سلم</button>
                 </div>
                 <button

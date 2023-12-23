@@ -1,4 +1,22 @@
 import styles from "./checkout.module.css";
+
+const PaymentMethod = () =>{
+  var data = {
+    id : localStorage.getItem("id")
+  }
+  fetch('http://134.255.234.247:8800/create-payment/' ,{
+    method: 'POST',
+    headers : {
+      'Content-Type' : 'application/json'
+    },
+    body:JSON.stringify(data)
+
+  })
+  .then(response => response.json())
+  .then(res =>{
+    console.log("res", res);
+  })    
+}
 const Checkout = () => {
   return (
     <div className={styles.checkout}>
@@ -202,7 +220,7 @@ const Checkout = () => {
                       </div>
                     </div>
                     <div className={styles.continueToCheckoutWrapper}>
-                      <div className={styles.success}>Continue to Checkout</div>
+                      <div className={styles.success} onClick={PaymentMethod}>Continue to Checkout</div>
                     </div>
                   </div>
                 </div>

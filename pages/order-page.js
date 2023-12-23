@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback  , useState , useEffect} from "react";
 import { useRouter } from "next/router";
 import SearchIcons from "../components/search-icons";
 import BuyerContainer from "../components/buyer-container";
@@ -6,6 +6,15 @@ import LIST from "../components/l-i-s-t";
 import RightHeader from "../components/right-header";
 import styles from "./order-page.module.css";
 const OrderPage = () => {
+  const [order, setOrder] = useState([]);
+  console.log("Order" , order)
+  useEffect(() => {
+    fetch('http://134.255.234.247:8800/api/orders')
+    .then(response => response.json())
+    .then(res => {setOrder(res)
+    })
+  }, [])
+  
   const router = useRouter();
 
   const onFrameLink4Click = useCallback(() => {
@@ -118,7 +127,7 @@ const OrderPage = () => {
                 <div className={styles.gig}>GIG</div>
               </div>
               <div className={styles.frameParent3}>
-                <div className={styles.completeParent}>
+                {/* <div className={styles.completeParent}>
                   <div className={styles.complete}>Complete</div>
                   <div className={styles.div}>$20</div>
                   <div className={styles.div}>Jan 02</div>
@@ -127,87 +136,25 @@ const OrderPage = () => {
                   <div
                     className={styles.buildAgencyClinic}
                   >{`Build agency, clinic, dental, health,dfedf  `}</div>
-                </div>
-                <div className={styles.completeParent}>
-                  <div className={styles.pending}>Pending</div>
-                  <div className={styles.div}>$20</div>
-                  <div className={styles.div}>Jan 02</div>
-                  <div className={styles.no}>No</div>
-                  <div className={styles.jan12}>Jan 12</div>
-                  <div
-                    className={styles.buildAgencyClinic}
-                  >{`Build agency, clinic, dental, health,dfedf  `}</div>
-                </div>
-                <div className={styles.completeParent}>
-                  <div className={styles.complete}>Complete</div>
-                  <div className={styles.div}>$20</div>
-                  <div className={styles.div}>Jan 02</div>
-                  <div className={styles.no}>No</div>
-                  <div className={styles.jan12}>Jan 12</div>
-                  <div
-                    className={styles.buildAgencyClinic}
-                  >{`Build agency, clinic, dental, health,dfedf  `}</div>
-                </div>
-                <div className={styles.completeParent}>
-                  <div className={styles.pending}>Pending</div>
-                  <div className={styles.div}>$20</div>
-                  <div className={styles.div}>Jan 02</div>
-                  <div className={styles.no}>No</div>
-                  <div className={styles.jan12}>Jan 12</div>
-                  <div
-                    className={styles.buildAgencyClinic}
-                  >{`Build agency, clinic, dental, health,dfedf  `}</div>
-                </div>
-                <div className={styles.completeParent}>
-                  <div className={styles.complete}>Complete</div>
-                  <div className={styles.div}>$20</div>
-                  <div className={styles.div}>Jan 02</div>
-                  <div className={styles.no}>No</div>
-                  <div className={styles.jan12}>Jan 12</div>
-                  <div
-                    className={styles.buildAgencyClinic}
-                  >{`Build agency, clinic, dental, health,dfedf  `}</div>
-                </div>
-                <div className={styles.completeParent}>
-                  <div className={styles.pending}>Pending</div>
-                  <div className={styles.div}>$20</div>
-                  <div className={styles.div}>Jan 02</div>
-                  <div className={styles.no}>No</div>
-                  <div className={styles.jan12}>Jan 12</div>
-                  <div
-                    className={styles.buildAgencyClinic}
-                  >{`Build agency, clinic, dental, health,dfedf  `}</div>
-                </div>
-                <div className={styles.completeParent}>
-                  <div className={styles.complete}>Complete</div>
-                  <div className={styles.div}>$20</div>
-                  <div className={styles.div}>Jan 02</div>
-                  <div className={styles.no}>No</div>
-                  <div className={styles.jan12}>Jan 12</div>
-                  <div
-                    className={styles.buildAgencyClinic}
-                  >{`Build agency, clinic, dental, health,dfedf  `}</div>
-                </div>
-                <div className={styles.completeParent}>
-                  <div className={styles.pending}>Pending</div>
-                  <div className={styles.div}>$20</div>
-                  <div className={styles.div}>Jan 02</div>
-                  <div className={styles.no}>No</div>
-                  <div className={styles.jan12}>Jan 12</div>
-                  <div
-                    className={styles.buildAgencyClinic}
-                  >{`Build agency, clinic, dental, health,dfedf  `}</div>
-                </div>
-                <div className={styles.completeParent}>
-                  <div className={styles.complete}>Complete</div>
-                  <div className={styles.div}>$20</div>
-                  <div className={styles.div}>Jan 02</div>
-                  <div className={styles.no}>No</div>
-                  <div className={styles.jan12}>Jan 12</div>
-                  <div
-                    className={styles.buildAgencyClinic}
-                  >{`Build agency, clinic, dental, health,dfedf  `}</div>
-                </div>
+                </div> */}
+                
+                {
+                  order.map((o) => (
+                    <>
+                      <div className={styles.completeParent}>
+                        <div className={styles.complete}>{o.isCompleted?"Completed":"Pending"}</div>
+                        <div className={styles.div}>${o.price}</div>
+                        <div className={styles.div}>Jan 02</div>
+                        <div className={styles.no}>{o.isCompleted?"Yes":"No"}</div>
+                        <div className={styles.jan12}>Jan 12</div>
+                        <div
+                          className={styles.buildAgencyClinic}
+                        >{o.title}</div>
+                      </div>
+                    </>
+                  ))
+                }
+                
               </div>
             </div>
           </div>
